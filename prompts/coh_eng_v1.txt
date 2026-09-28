@@ -1,0 +1,47 @@
+Below are two dialogue context — response pairs.
+Decide in which PAIR the response is more COHERENT with its context —
+that is, it follows naturally from what was said, stays on topic and
+makes sense as a reply.
+
+Pair A:
+Context A:
+<<<
+{parent_A}
+>>>
+Response A:
+<<<
+{reply_A}
+>>>
+
+Pair B:
+Context B:
+<<<
+{parent_B}
+>>>
+Response B:
+<<<
+{reply_B}
+>>>
+
+{root_note}Choose A or B ONLY if the difference in coherence is obvious.
+In every other case choose E.
+
+Specific cases where the correct answer is E:
+- both responses follow their context equally well
+- both are off topic or generic
+- the responses are very short and there is nothing to judge by
+- you cannot confidently tell one from the other
+
+Signs of coherence (raise it): the response answers what was actually
+said, picks up the topic, fits the situation.
+Signs of incoherence (lower it): the response ignores the context,
+changes the subject, contradicts what was said, or is generic filler
+that would fit any context.
+Note: the length of a response by itself does NOT make it more coherent.
+
+Choose ONE option and return strictly a single letter with no explanation:
+A — the response in pair A is more coherent with its context
+B — the response in pair B is more coherent
+E — coherence is comparable, or the difference is not obvious
+
+Answer (one letter A, B or E):

@@ -1,0 +1,51 @@
+Data behind fig_thresholds_quicksort
+source: results/20260918_210724_nb07_thresholds/thresholds.csv + critical_error_rates.csv
+generated: 2026-09-28T12:17:16
+
+=== quicksort, random input order, criterion rho >= 0.95: max tolerable tie rate ===
+     errors_per_100  tau_star  ci_lo  ci_hi status  rho_at_tau_min
+690           2.000     0.160  0.155  0.165     ok           0.997
+681           3.000     0.158  0.153  0.162     ok           0.994
+672           4.000     0.158  0.155  0.160     ok           0.990
+663           5.000     0.144  0.142  0.147     ok           0.985
+654           6.000     0.137  0.133  0.141     ok           0.978
+645           8.000     0.097  0.089  0.104     ok           0.961
+636          10.000       NaN    NaN    NaN   none           0.943
+627          12.000       NaN    NaN    NaN   none           0.918
+618          14.000       NaN    NaN    NaN   none           0.888
+609          16.000       NaN    NaN    NaN   none           0.854
+600          18.000       NaN    NaN    NaN   none           0.827
+
+=== quicksort, random input order, criterion rho >= 0.9: max tolerable tie rate ===
+     errors_per_100  tau_star  ci_lo  ci_hi status  rho_at_tau_min
+691           2.000     0.241  0.237  0.246     ok           0.997
+682           3.000     0.234  0.229  0.240     ok           0.994
+673           4.000     0.229  0.225  0.232     ok           0.990
+664           5.000     0.229  0.226  0.233     ok           0.985
+655           6.000     0.217  0.212  0.221     ok           0.978
+646           8.000     0.205  0.199  0.211     ok           0.961
+637          10.000     0.177  0.172  0.181     ok           0.943
+628          12.000     0.124  0.116  0.134     ok           0.918
+619          14.000       NaN    NaN    NaN   none           0.888
+610          16.000       NaN    NaN    NaN   none           0.854
+601          18.000       NaN    NaN    NaN   none           0.827
+
+=== quicksort, random input order, criterion rho >= 0.85: max tolerable tie rate ===
+     errors_per_100  tau_star  ci_lo  ci_hi status  rho_at_tau_min
+692           2.000     0.295  0.290  0.301     ok           0.997
+683           3.000     0.302  0.295  0.308     ok           0.994
+674           4.000     0.297  0.291  0.303     ok           0.990
+665           5.000     0.290  0.285  0.297     ok           0.985
+656           6.000     0.284  0.278  0.292     ok           0.978
+647           8.000     0.274  0.269  0.279     ok           0.961
+638          10.000     0.261  0.256  0.266     ok           0.943
+629          12.000     0.223  0.216  0.230     ok           0.918
+620          14.000     0.193  0.180  0.205     ok           0.888
+611          16.000     0.110  0.046  0.124     ok           0.854
+602          18.000       NaN    NaN    NaN   none           0.827
+
+=== quicksort: critical error rate — the criterion fails even at zero tie rate ===
+    criterion  critical_errors_per_100 status
+18      0.950                    9.310     ok
+19      0.900                   13.270     ok
+20      0.850                   16.290     ok

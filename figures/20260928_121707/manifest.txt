@@ -1,0 +1,14 @@
+Regenerated figures + their source-data tables (<fig>.txt)
+generated: 2026-09-28T12:17:17
+
+fig_methods_vs_tie_rate	.png/.svg/.txt	<- 20260705_222911_nb02_algorithms_bench/methods_long.csv
+fig3_input_order	.png/.svg/.txt	<- 20260705_223451_nb03_input_order/input_order_summary.csv
+fig1_budget	.png/.svg/.txt	<- 20260705_223100_nb04_budget_curves/budget_summary.csv
+fig2_degradation_beta0.5	.png/.svg/.txt	<- 20260705_223837_nb05_simulation/simulation_summary.csv
+fig2_degradation_beta1.5	.png/.svg/.txt	<- 20260705_223837_nb05_simulation/simulation_summary.csv
+fig2_degradation_beta4	.png/.svg/.txt	<- 20260705_223837_nb05_simulation/simulation_summary.csv
+fig2b_input_leak	.png/.svg/.txt	<- 20260705_223837_nb05_simulation/simulation_summary.csv
+fig2c_suitability	.png/.svg/.txt	<- 20260705_223837_nb05_simulation/simulation_summary.csv
+fig_thresholds_quicksort	.png/.svg/.txt	<- 20260918_210724_nb07_thresholds/thresholds.csv + critical_error_rates.csv
+fig_thresholds_merge	.png/.svg/.txt	<- 20260918_210724_nb07_thresholds/thresholds.csv + critical_error_rates.csv
+fig_thresholds_heapsort	.png/.svg/.txt	<- 20260918_210724_nb07_thresholds/thresholds.csv + critical_error_rates.csv

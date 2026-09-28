@@ -1,0 +1,42 @@
+Data behind fig_methods_vs_tie_rate
+source: results/20260705_222911_nb02_algorithms_bench/methods_long.csv
+generated: 2026-09-28T12:17:08
+
+=== rho_vs_gold per method x matrix (mean/min/max); each plotted line = one method across matrices ===
+             method           matrix  tie_rate   mean    min    max
+1                bt  Gemma4-v3-bidir     0.184  1.000  1.000  1.000
+2                bt    Gemma4-v3-uni     0.211  1.000  1.000  1.000
+0                bt        Gemma4-v2     0.311  1.000  1.000  1.000
+3                bt         llama-v2     0.563  1.000  1.000  1.000
+5            bubble  Gemma4-v3-bidir     0.184  0.103  0.103  0.103
+6            bubble    Gemma4-v3-uni     0.211  0.035  0.035  0.035
+4            bubble        Gemma4-v2     0.311  0.106  0.106  0.106
+7            bubble         llama-v2     0.563  0.182  0.182  0.182
+9          copeland  Gemma4-v3-bidir     0.184  1.000  1.000  1.000
+10         copeland    Gemma4-v3-uni     0.211  1.000  1.000  1.000
+8          copeland        Gemma4-v2     0.311  1.000  1.000  1.000
+11         copeland         llama-v2     0.563  1.000  1.000  1.000
+13         heapsort  Gemma4-v3-bidir     0.184  0.703  0.703  0.703
+14         heapsort    Gemma4-v3-uni     0.211  0.363  0.363  0.363
+12         heapsort        Gemma4-v2     0.311  0.164  0.164  0.164
+15         heapsort         llama-v2     0.563 -0.356 -0.356 -0.356
+17        insertion  Gemma4-v3-bidir     0.184  0.103  0.103  0.103
+18        insertion    Gemma4-v3-uni     0.211  0.035  0.035  0.035
+16        insertion        Gemma4-v2     0.311  0.106  0.106  0.106
+19        insertion         llama-v2     0.563  0.182  0.182  0.182
+21            merge  Gemma4-v3-bidir     0.184  0.872  0.872  0.872
+22            merge    Gemma4-v3-uni     0.211  0.765  0.765  0.765
+20            merge        Gemma4-v2     0.311  0.702  0.702  0.702
+23            merge         llama-v2     0.563  0.378  0.378  0.378
+25        quicksort  Gemma4-v3-bidir     0.184  0.939  0.934  0.944
+26        quicksort    Gemma4-v3-uni     0.211  0.910  0.894  0.919
+24        quicksort        Gemma4-v2     0.311  0.825  0.810  0.848
+27        quicksort         llama-v2     0.563  0.464  0.356  0.533
+29  rank_centrality  Gemma4-v3-bidir     0.184  1.000  1.000  1.000
+30  rank_centrality    Gemma4-v3-uni     0.211  0.998  0.998  0.998
+28  rank_centrality        Gemma4-v2     0.311  0.997  0.997  0.997
+31  rank_centrality         llama-v2     0.563  0.986  0.986  0.986
+33          winrate  Gemma4-v3-bidir     0.184  0.995  0.995  0.995
+34          winrate    Gemma4-v3-uni     0.211  0.993  0.993  0.993
+32          winrate        Gemma4-v2     0.311  0.989  0.989  0.989
+35          winrate         llama-v2     0.563  0.945  0.945  0.945

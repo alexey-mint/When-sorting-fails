@@ -1,0 +1,6 @@
+{
+  "DATA_DIR": null,
+  "PAIRS_CSV": null,
+  "CACHE_SINGLE": "data/E8_single.jsonl",
+  "CACHE_BATCH": "data/E8_batch2.jsonl"
+}

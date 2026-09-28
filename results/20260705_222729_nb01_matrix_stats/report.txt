@@ -1,0 +1,11 @@
+-- llama-v2: 79401 pairs, 399 items
+-- Gemma4-v2: 79401 pairs, 399 items
+-- Gemma4-v3-uni: 79401 pairs, 399 items
+-- Gemma4-v3-bidir: 79401 pairs, 399 items
+
+Table 1 (percent):
+          label                       model prompt_version           mode  n_calls  tie_rate  tie_mutual_E  tie_disagree  nontrans_exact  nontrans_sampled  position_bias
+       llama-v2 llama3.1:8b-instruct-q4_K_M   relevance_v2  bidirectional   158802     56.27         33.53         22.74            0.97              2.10          22.74
+      Gemma4-v2                   Gemma4:26   relevance_v2 unidirectional    79401     31.12         31.12          0.00            0.91              0.80            NaN
+  Gemma4-v3-uni                   Gemma4:26        auth_v3 unidirectional    79401     21.09         21.09          0.00            0.72              0.74            NaN
+Gemma4-v3-bidir                   Gemma4:26        auth_v3  bidirectional   158802     18.35         14.07          4.28            0.14              0.09           4.28

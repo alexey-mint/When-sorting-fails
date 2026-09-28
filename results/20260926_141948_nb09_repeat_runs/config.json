@@ -1,0 +1,6 @@
+{
+  "purpose": "agreement of repeated judge queries vs the trajectory tie rate",
+  "judge": "llama3.1:8b",
+  "algorithm": "quicksort",
+  "order_mode": "bidirectional"
+}

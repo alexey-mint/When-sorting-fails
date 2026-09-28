@@ -1,0 +1,10 @@
+{
+  "purpose": "transfer of the conclusions to the English translation of the corpus",
+  "matrices": [
+    "GA2",
+    "GA2(en_ru)",
+    "GA2(en)"
+  ],
+  "n_objects": 399,
+  "source_project": "LLM collector run logs (not published)"
+}

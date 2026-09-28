@@ -1,0 +1,7 @@
+pairs in list: 1500; in single cache: 1500; in batch cache: 1500
+changed aggregated outcome: 519/1500 (34.6%)
+transitions decisive→tie: 281, tie→decisive: 118; McNemar exact p = 1.92e-16
+tie_rate: 0.183 vs 0.292  (z=-6.99, p=2.72e-12)
+tie_mutual_E: 0.147 vs 0.217  (z=-5.02, p=5.284e-07)
+tie_disagree: 0.037 vs 0.075  (z=-4.54, p=5.654e-06)
+Spearman between the BT rankings of the two regimes (over 397 participating objects): +0.8224

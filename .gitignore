@@ -1,0 +1,10 @@
+# Outputs of tournament.ipynb (verdict stores, status files, reports)
+tournaments/
+# The external P-DD data set is not redistributed: keep the download and the
+# converted file out of the repository
+data/external/
+data/pdd_context_200.csv
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

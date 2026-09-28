@@ -1,0 +1,55 @@
+{
+  "about": "Judge instructions used to collect the verdict matrices in data/matrices/. Each template is filled with str.format(): {parent_A}, {reply_A}, {parent_B}, {reply_B} receive the texts with whitespace collapsed, and {root_note} receives the top-level-comment note in the instruction's language when the collection runs with root_clause=True (an empty string otherwise). Template files are UTF-8; the loader converts CRLF to LF and drops one final newline.",
+  "instructions": {
+    "relevance_v2": {
+      "file": "relevance_v2.txt",
+      "criterion": "relevance",
+      "language": "ru",
+      "matrices": [
+        "GR1",
+        "LR2"
+      ],
+      "note": "Relevance of the reply to its parent comment; A or B only when the difference is obvious."
+    },
+    "auth_v3": {
+      "file": "auth_v3.txt",
+      "former_name": "relevance_v3",
+      "criterion": "authenticity",
+      "language": "ru",
+      "matrices": [
+        "GA2",
+        "GA1",
+        "GA2_en_ru"
+      ],
+      "note": "Authenticity: a live human reaction vs a bot reply, planted message or flaming. Also used unchanged on the English translation (GA2_en_ru). In the authors' logs and in results/ it is named relevance_v3."
+    },
+    "auth_eng_v3": {
+      "file": "auth_eng_v3.txt",
+      "criterion": "authenticity",
+      "language": "en",
+      "matrices": [
+        "GA2_en"
+      ],
+      "note": "English version of auth_v3 with its structure and the order of its items preserved."
+    },
+    "coh_eng_v1": {
+      "file": "coh_eng_v1.txt",
+      "criterion": "coherence",
+      "language": "en",
+      "matrices": [
+        "PDD"
+      ],
+      "note": "Coherence of a dialogue response with its context, for the external P-DD set; collected without the top-level note."
+    }
+  },
+  "root_notes": {
+    "ru": {
+      "both": "Учти: в обеих парах родительский текст — это описание видео, а реплай — комментарий первого уровня под роликом (не ответ на чужой комментарий). Оценивай связь реплая с темой ролика в целом, а не дословное соответствие описанию.",
+      "one": "Учти: в паре {side} родительский текст — это описание видео, а реплай — комментарий первого уровня под роликом (не ответ на чужой комментарий); оценивай его связь с темой ролика, а не дословное соответствие описанию."
+    },
+    "en": {
+      "both": "Note: in both pairs the parent text is the video description, and the reply is a top-level comment under the video (not a reply to someone else's comment). Judge how the reply relates to the topic of the video as a whole, not its literal correspondence to the description.",
+      "one": "Note: in pair {side} the parent text is the video description, and the reply is a top-level comment under the video (not a reply to someone else's comment); judge how it relates to the topic of the video, not its literal correspondence to the description."
+    }
+  }
+}

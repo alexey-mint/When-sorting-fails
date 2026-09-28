@@ -1,0 +1,8 @@
+{
+  "DATA_DIR": null,
+  "MATRICES": null,
+  "N_PERM": 100,
+  "PERM_SEED0": 1000,
+  "QSORT_SEED": 0,
+  "TOPK": 50
+}

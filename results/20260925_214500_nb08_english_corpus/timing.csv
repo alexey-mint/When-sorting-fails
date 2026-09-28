@@ -1,0 +1,6 @@
+﻿exp_id,input_csv,duration_seconds,n_llm_calls,seconds_per_call,eq_rate,disagreement_rate
+REF_openai_local_Gemma4-26_v3_bidir_random,corpus_400-2_ru.csv,28793.571,79401,0.3626348660596214,0.21091673908389064,0.0
+REF_openai_local_Gemma4-26_v3_bidir,corpus_400-2_ru.csv,58559.41,158802,0.3687573834082694,0.18354932557524464,0.04282061938766514
+REF_openai_local_Gemma4-26_v2_unidirectional,corpus_400-2_ru.csv,27900.302,79401,0.3513847684537978,0.3112051485497664,0.0
+REF_openai_local_Gemma4-26_v3_bidir,corpus_400-2_en.csv,54514.422,157242,0.34669122753462817,0.16686187831387514,0.0532990768378232
+REF_openai_local_Gemma4-26_auth_eng_v3_bidir,corpus_400-2_en.csv,48376.064,157242,0.3076535785604355,0.1614715179909573,0.09045226130653267

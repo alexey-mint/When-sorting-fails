@@ -1,0 +1,5 @@
+﻿label,model,prompt_version,mode,n_calls,tie_rate,tie_mutual_E,tie_disagree,nontrans_exact,nontrans_sampled,position_bias
+llama-v2,llama3.1:8b-instruct-q4_K_M,relevance_v2,bidirectional,158802,56.27,33.53,22.74,0.97,2.1,22.74
+Gemma4-v2,Gemma4:26,relevance_v2,unidirectional,79401,31.12,31.12,0.0,0.91,0.8,
+Gemma4-v3-uni,Gemma4:26,auth_v3,unidirectional,79401,21.09,21.09,0.0,0.72,0.74,
+Gemma4-v3-bidir,Gemma4:26,auth_v3,bidirectional,158802,18.35,14.07,4.28,0.14,0.09,4.28

@@ -1,0 +1,49 @@
+Below are two parent comment — reply pairs.
+Decide in which PAIR the reply looks more AUTHENTIC — that is, like a
+real person reacting sincerely or a genuine exchange, and NOT like a bot
+reply, an astroturfed message, scripted propaganda talking points, or
+flaming.
+
+Pair A:
+Parent A:
+<<<
+{parent_A}
+>>>
+Reply A:
+<<<
+{reply_A}
+>>>
+
+Pair B:
+Parent B:
+<<<
+{parent_B}
+>>>
+Reply B:
+<<<
+{reply_B}
+>>>
+
+{root_note}Choose A or B ONLY if the difference in authenticity is obvious.
+In every other case choose E.
+
+Specific cases where the correct answer is E:
+- both replies look equally alive and human
+- both look like an astroturfed message, a slogan, or flaming
+- the replies are very short and there is nothing to judge by
+- you cannot confidently tell one from the other
+
+Signs of authenticity (raise it): specifics and personal experience, a
+reply that is on point and addressed to the other person, a follow-up
+question, sincere emotion with substance.
+Signs of a bot reply or an astroturfed message (lower authenticity):
+copy-pasted talking points, slogans, general aggression and flaming
+without arguments, text unrelated to the parent.
+Note: the length of a reply by itself does NOT make it more authentic.
+
+Choose ONE option and return strictly a single letter with no explanation:
+A — reply A looks more authentic (alive, human)
+B — reply B looks more authentic
+E — authenticity is comparable, or the difference is not obvious
+
+Answer (one letter A, B or E):

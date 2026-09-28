@@ -1,0 +1,11 @@
+{
+  "DATA_DIR": null,
+  "MATRICES": null,
+  "QSORT_SEEDS": [
+    0,
+    1,
+    2
+  ],
+  "TOPK": 50,
+  "VALIDATE": true
+}

@@ -1,0 +1,26 @@
+Data license
+
+The data in this repository — the files in data/, prompts/, results/ and
+figures/ — are licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License (CC BY-NC 4.0).
+
+Summary: https://creativecommons.org/licenses/by-nc/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+You may copy, redistribute, remix, transform and build upon the data for
+non-commercial purposes, provided you give appropriate credit (cite the
+article and this data set), provide a link to the license and indicate if
+changes were made.
+
+The corpus (data/corpus_400-2_en.csv) consists of English translations of
+publicly posted YouTube comments. Copyright in the original comments remains
+with their authors; this license covers the authors' contribution (the
+selection, cleaning and translation of the texts, and the verdict matrices).
+Please do not attempt to identify the authors of the comments.
+
+The HolisticEval / P-DD data set (Pang et al., 2020) is not included; the
+script prepare_pdd.py converts a copy obtained from its authors. Its terms are
+those of its authors.
+
+The code (*.py, *.ipynb, ranklib/) is licensed separately under the MIT
+License; see LICENSE.

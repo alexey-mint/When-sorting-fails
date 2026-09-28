@@ -1,0 +1,2 @@
+﻿matrix,n_objects,n_pairs_expected,n_records,n_unique_keys,n_defective,tie_rate,mutual_eq_rate,direction_conflict_rate,half_eq_rate,nontransitivity,reference_levels,reference_tied_pair_rate
+P-DD,200,19900,19900,19900,0,0.2857286432160804,0.2779899497487437,0.007738693467336684,0.0,7.93501800862014e-05,142,0.0036683417085427135

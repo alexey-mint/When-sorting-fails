@@ -1,0 +1,11 @@
+﻿matrix,method,seed,rho_to_reference
+P-DD,bradley_terry,,1.0
+P-DD,rank_centrality,,0.9994292166076282
+P-DD,win_rate,,0.9940311090426002
+P-DD,quicksort,0,0.878824711022772
+P-DD,quicksort,1,0.8744212006626579
+P-DD,quicksort,2,0.923239337063399
+P-DD,merge,,0.8570411730584054
+P-DD,heapsort,,0.780846417999145
+P-DD,insertion,,0.4567417551222288
+P-DD,bubble,,0.4567417551222288

@@ -1,0 +1,23 @@
+DESCRIPTORS
+    matrix  tie_rate  mutual_eq_rate  direction_conflict_rate  nontransitivity
+       GA2   0.18355         0.14073                  0.04282          0.00139
+GA2(en_ru)   0.16849         0.11495                  0.05354          0.00130
+   GA2(en)   0.16302         0.07213                  0.09089          0.00135
+
+AGREEMENT OF REFERENCE RANKINGS
+  matrix_a   matrix_b   rho
+       GA2 GA2(en_ru) 0.922
+       GA2    GA2(en) 0.862
+GA2(en_ru)    GA2(en) 0.946
+
+ALGORITHMS
+matrix            GA2  GA2(en)  GA2(en_ru)
+method                                    
+bradley_terry   1.000    1.000       1.000
+bubble          0.103    0.083       0.132
+heapsort        0.703    0.865       0.676
+insertion       0.103    0.083       0.132
+merge           0.872    0.884       0.893
+quicksort       0.939    0.942       0.939
+rank_centrality 1.000    1.000       1.000
+win_rate        0.995    0.998       0.997

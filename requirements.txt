@@ -1,0 +1,9 @@
+# Versions of the published runs (Python 3.10).
+numpy==2.2.2
+pandas==2.2.3
+matplotlib==3.10.0
+# notebooks
+jupyter
+# collector.py (tournament.ipynb, Phase A)
+requests==2.32.3
+tqdm==4.67.1

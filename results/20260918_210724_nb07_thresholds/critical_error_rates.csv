@@ -1,0 +1,28 @@
+﻿criterion,tau,critical_error_rate,status,algorithm,critical_errors_per_100
+0.95,0.0,,met even by the worst judge on the grid,bt,
+0.9,0.0,,met even by the worst judge on the grid,bt,
+0.85,0.0,,met even by the worst judge on the grid,bt,
+0.95,0.0,0.024032237106441708,ok,bubble,2.4
+0.9,0.0,0.029298940208355558,ok,bubble,2.93
+0.85,0.0,0.03388844332074773,ok,bubble,3.39
+0.95,0.0,,met even by the worst judge on the grid,copeland,
+0.9,0.0,,met even by the worst judge on the grid,copeland,
+0.85,0.0,,met even by the worst judge on the grid,copeland,
+0.95,0.0,0.07368549373692437,ok,heapsort,7.37
+0.9,0.0,0.09417636835420745,ok,heapsort,9.42
+0.85,0.0,0.10976636423223021,ok,heapsort,10.98
+0.95,0.0,0.024032237106441708,ok,insertion,2.4
+0.9,0.0,0.029298940208355558,ok,insertion,2.93
+0.85,0.0,0.03388844332074773,ok,insertion,3.39
+0.95,0.0,0.09593537161135882,ok,merge,9.59
+0.9,0.0,0.137386163731851,ok,merge,13.74
+0.85,0.0,0.17370640074606766,ok,merge,17.37
+0.95,0.0,0.09309885670785023,ok,quicksort,9.31
+0.9,0.0,0.13273771652312313,ok,quicksort,13.27
+0.85,0.0,0.16289262985672792,ok,quicksort,16.29
+0.95,0.0,,met even by the worst judge on the grid,rank_centrality,
+0.9,0.0,,met even by the worst judge on the grid,rank_centrality,
+0.85,0.0,,met even by the worst judge on the grid,rank_centrality,
+0.95,0.0,,met even by the worst judge on the grid,winrate,
+0.9,0.0,,met even by the worst judge on the grid,winrate,
+0.85,0.0,,met even by the worst judge on the grid,winrate,

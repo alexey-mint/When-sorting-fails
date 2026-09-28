@@ -1,0 +1,52 @@
+Data behind fig2_degradation_beta1.5
+source: results/20260705_223837_nb05_simulation/simulation_summary.csv
+generated: 2026-09-28T12:17:11
+
+=== beta = 1.5, tie model threshold, random input order — mean rho to true order (line) ===
+tau               0.0   0.1   0.2   0.3    0.4    0.5    0.6    0.7    0.8
+algorithm                                                                 
+copeland        0.996 0.997 0.997 0.997  0.997  0.996  0.995  0.993  0.990
+winrate         0.996 0.996 0.996 0.996  0.995  0.995  0.993  0.990  0.985
+bt              0.996 0.997 0.997 0.997  0.997  0.996  0.995  0.993  0.990
+rank_centrality 0.993 0.991 0.989 0.986  0.984  0.981  0.974  0.966  0.951
+heapsort        0.367 0.290 0.235 0.064 -0.028 -0.109 -0.129 -0.083 -0.051
+quicksort       0.758 0.761 0.735 0.684  0.606  0.535  0.430  0.336  0.231
+bubble          0.052 0.047 0.024 0.014  0.007  0.029  0.029  0.002  0.004
+merge           0.778 0.748 0.670 0.551  0.420  0.313  0.209  0.102  0.061
+insertion       0.052 0.047 0.024 0.014  0.007  0.029  0.029  0.002  0.004
+
+=== beta = 1.5, tie model threshold, random input order — sigma over repetitions (error bars) ===
+tau               0.0   0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8
+algorithm                                                            
+copeland        0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.001 0.001
+winrate         0.000 0.000 0.000 0.001 0.000 0.000 0.001 0.001 0.001
+bt              0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.001 0.001
+rank_centrality 0.001 0.001 0.001 0.002 0.002 0.002 0.003 0.004 0.004
+heapsort        0.083 0.096 0.081 0.077 0.078 0.076 0.060 0.060 0.037
+quicksort       0.023 0.025 0.037 0.038 0.043 0.049 0.053 0.044 0.051
+bubble          0.046 0.061 0.045 0.044 0.056 0.060 0.051 0.053 0.039
+merge           0.027 0.026 0.038 0.039 0.048 0.054 0.045 0.058 0.038
+insertion       0.046 0.061 0.045 0.044 0.056 0.060 0.051 0.053 0.039
+
+=== field points for comparison with the curves above (real matrices; not drawn on the figure): tie_rate vs rho_vs_gold per sort x matrix ===
+         matrix    method  tie_rate  rho_vs_gold
+      Gemma4-v2    bubble     0.311        0.106
+      Gemma4-v2  heapsort     0.311        0.164
+      Gemma4-v2 insertion     0.311        0.106
+      Gemma4-v2     merge     0.311        0.702
+      Gemma4-v2 quicksort     0.311        0.825
+Gemma4-v3-bidir    bubble     0.184        0.103
+Gemma4-v3-bidir  heapsort     0.184        0.703
+Gemma4-v3-bidir insertion     0.184        0.103
+Gemma4-v3-bidir     merge     0.184        0.872
+Gemma4-v3-bidir quicksort     0.184        0.939
+  Gemma4-v3-uni    bubble     0.211        0.035
+  Gemma4-v3-uni  heapsort     0.211        0.363
+  Gemma4-v3-uni insertion     0.211        0.035
+  Gemma4-v3-uni     merge     0.211        0.765
+  Gemma4-v3-uni quicksort     0.211        0.910
+       llama-v2    bubble     0.563        0.182
+       llama-v2  heapsort     0.563       -0.356
+       llama-v2 insertion     0.563        0.182
+       llama-v2     merge     0.563        0.378
+       llama-v2 quicksort     0.563        0.464

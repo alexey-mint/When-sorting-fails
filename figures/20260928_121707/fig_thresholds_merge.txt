@@ -1,0 +1,51 @@
+Data behind fig_thresholds_merge
+source: results/20260918_210724_nb07_thresholds/thresholds.csv + critical_error_rates.csv
+generated: 2026-09-28T12:17:16
+
+=== merge, random input order, criterion rho >= 0.95: max tolerable tie rate ===
+     errors_per_100  tau_star  ci_lo  ci_hi status  rho_at_tau_min
+591           2.000     0.124  0.122  0.126     ok           0.997
+582           3.000     0.121  0.119  0.124     ok           0.994
+573           4.000     0.118  0.116  0.121     ok           0.991
+564           5.000     0.112  0.110  0.114     ok           0.985
+555           6.000     0.101  0.097  0.104     ok           0.979
+546           8.000     0.065  0.059  0.070     ok           0.964
+537          10.000       NaN    NaN    NaN   none           0.946
+528          12.000       NaN    NaN    NaN   none           0.920
+519          14.000       NaN    NaN    NaN   none           0.897
+510          16.000       NaN    NaN    NaN   none           0.872
+501          18.000       NaN    NaN    NaN   none           0.839
+
+=== merge, random input order, criterion rho >= 0.9: max tolerable tie rate ===
+     errors_per_100  tau_star  ci_lo  ci_hi status  rho_at_tau_min
+592           2.000     0.174  0.172  0.176     ok           0.997
+583           3.000     0.176  0.173  0.179     ok           0.994
+574           4.000     0.169  0.165  0.173     ok           0.991
+565           5.000     0.167  0.164  0.170     ok           0.985
+556           6.000     0.162  0.158  0.165     ok           0.979
+547           8.000     0.151  0.147  0.155     ok           0.964
+538          10.000     0.122  0.119  0.126     ok           0.946
+529          12.000     0.087  0.078  0.099     ok           0.920
+520          14.000       NaN    NaN    NaN   none           0.897
+511          16.000       NaN    NaN    NaN   none           0.872
+502          18.000       NaN    NaN    NaN   none           0.839
+
+=== merge, random input order, criterion rho >= 0.85: max tolerable tie rate ===
+     errors_per_100  tau_star  ci_lo  ci_hi status  rho_at_tau_min
+593           2.000     0.212  0.208  0.215     ok           0.997
+584           3.000     0.214  0.210  0.218     ok           0.994
+575           4.000     0.210  0.205  0.214     ok           0.991
+566           5.000     0.207  0.203  0.212     ok           0.985
+557           6.000     0.205  0.200  0.209     ok           0.979
+548           8.000     0.195  0.191  0.199     ok           0.964
+539          10.000     0.181  0.176  0.186     ok           0.946
+530          12.000     0.159  0.149  0.166     ok           0.920
+521          14.000     0.127  0.121  0.133     ok           0.897
+512          16.000     0.077  0.067  0.087     ok           0.872
+503          18.000       NaN    NaN    NaN   none           0.839
+
+=== merge: critical error rate — the criterion fails even at zero tie rate ===
+    criterion  critical_errors_per_100 status
+15      0.950                    9.590     ok
+16      0.900                   13.740     ok
+17      0.850                   17.370     ok

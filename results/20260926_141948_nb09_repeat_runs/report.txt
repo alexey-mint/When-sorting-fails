@@ -1,0 +1,12 @@
+REPEATED QUERYING OF THE JUDGE (algorithm frozen)
+   configuration  trajectory_tie_rate_mean  spearman_r1_r2
+    (400) single                     0.601           0.934
+(400) batch of 4                     0.635           0.953
+  (400-2) single                     0.738           0.978
+
+CONTRAST: the pivot varies, the judge is frozen
+matrix  tournament_tie_rate  self_agreement_between_seeds  accuracy_to_reference
+   LR2                0.563                         0.407                  0.464
+   GR1                0.311                         0.749                  0.825
+   GA1                0.211                         0.893                  0.910
+   GA2                0.184                         0.921                  0.939

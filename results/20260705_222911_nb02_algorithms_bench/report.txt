@@ -1,0 +1,21 @@
+-- bench on llama-v2 ...
+   gates: 11/11 ok
+-- bench on Gemma4-v2 ...
+-- bench on Gemma4-v3-uni ...
+   gates: 11/11 ok
+-- bench on Gemma4-v3-bidir ...
+
+Table 3 (ρ to the reference ranking of the same matrix):
+matrix                Gemma4-v2 Gemma4-v3-bidir   Gemma4-v3-uni        llama-v2
+method                                                                         
+copeland                 +1.000          +1.000          +1.000          +1.000
+bt                       +1.000          +1.000          +1.000          +1.000
+rank_centrality          +0.997          +1.000          +0.998          +0.986
+winrate                  +0.989          +0.995          +0.993          +0.945
+quicksort        +0.810..+0.848  +0.934..+0.944  +0.894..+0.919  +0.356..+0.533
+merge                    +0.702          +0.872          +0.765          +0.378
+heapsort                 +0.164          +0.703          +0.363          -0.356
+insertion                +0.106          +0.103          +0.035          +0.182
+bubble                   +0.106          +0.103          +0.035          +0.182
+
+All 22 validation gates passed.

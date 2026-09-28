@@ -1,0 +1,17 @@
+{
+  "SIM_RUN": "results\\20260918_120914_nb07_competence_sweep",
+  "CRITERIA": [
+    0.95,
+    0.9,
+    0.85
+  ],
+  "ALGORITHMS": [
+    "quicksort",
+    "merge",
+    "heapsort"
+  ],
+  "ORDER_KIND": "random",
+  "N_BOOT": 2000,
+  "BOOT_SEED": 20260918,
+  "SHARED_AXES": true
+}

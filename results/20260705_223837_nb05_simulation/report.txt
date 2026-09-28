@@ -1,0 +1,58 @@
+grid: {'taus': (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8), 'betas': (0.5, 1.5, 4.0), 'tie_models': ('const', 'threshold'), 'order_kinds': ('random', 'pos', 'neg'), 'reps': 30, 'n': 400, 'order_rho': 0.5, 'alpha': 1.0, 'master_seed': 20260705}
+
+Suitability thresholds (max τ under the worst input order):
+      algorithm tie_model  beta  tau_max_rho0.9  tau_max_rho0.95
+             bt     const   0.5             0.7              0.5
+             bt     const   1.5             0.8              0.8
+             bt     const   4.0             0.8              0.8
+             bt threshold   0.5             0.8              0.8
+             bt threshold   1.5             0.8              0.8
+             bt threshold   4.0             0.8              0.8
+         bubble     const   0.5            -1.0             -1.0
+         bubble     const   1.5            -1.0             -1.0
+         bubble     const   4.0            -1.0             -1.0
+         bubble threshold   0.5            -1.0             -1.0
+         bubble threshold   1.5            -1.0             -1.0
+         bubble threshold   4.0            -1.0             -1.0
+       copeland     const   0.5             0.7              0.5
+       copeland     const   1.5             0.8              0.8
+       copeland     const   4.0             0.8              0.8
+       copeland threshold   0.5             0.8              0.8
+       copeland threshold   1.5             0.8              0.8
+       copeland threshold   4.0             0.8              0.8
+       heapsort     const   0.5            -1.0             -1.0
+       heapsort     const   1.5            -1.0             -1.0
+       heapsort     const   4.0            -1.0             -1.0
+       heapsort threshold   0.5            -1.0             -1.0
+       heapsort threshold   1.5            -1.0             -1.0
+       heapsort threshold   4.0            -1.0             -1.0
+      insertion     const   0.5            -1.0             -1.0
+      insertion     const   1.5            -1.0             -1.0
+      insertion     const   4.0            -1.0             -1.0
+      insertion threshold   0.5            -1.0             -1.0
+      insertion threshold   1.5            -1.0             -1.0
+      insertion threshold   4.0            -1.0             -1.0
+          merge     const   0.5            -1.0             -1.0
+          merge     const   1.5            -1.0             -1.0
+          merge     const   4.0             0.0             -1.0
+          merge threshold   0.5            -1.0             -1.0
+          merge threshold   1.5            -1.0             -1.0
+          merge threshold   4.0             0.1             -1.0
+      quicksort     const   0.5            -1.0             -1.0
+      quicksort     const   1.5            -1.0             -1.0
+      quicksort     const   4.0             0.0             -1.0
+      quicksort threshold   0.5            -1.0             -1.0
+      quicksort threshold   1.5            -1.0             -1.0
+      quicksort threshold   4.0             0.1             -1.0
+rank_centrality     const   0.5             0.7              0.4
+rank_centrality     const   1.5             0.8              0.8
+rank_centrality     const   4.0             0.8              0.8
+rank_centrality threshold   0.5             0.7              0.4
+rank_centrality threshold   1.5             0.8              0.7
+rank_centrality threshold   4.0             0.8              0.8
+        winrate     const   0.5             0.7              0.5
+        winrate     const   1.5             0.8              0.8
+        winrate     const   4.0             0.8              0.8
+        winrate threshold   0.5             0.8              0.7
+        winrate threshold   1.5             0.8              0.8
+        winrate threshold   4.0             0.8              0.8

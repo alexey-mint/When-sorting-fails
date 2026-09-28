@@ -1,0 +1,5 @@
+# Store every file byte for byte: no end-of-line conversion on commit or
+# checkout. SHA256SUMS.txt and the byte-identical reproduction of the
+# published tables depend on it; the corpus CSV also mixes CRLF record ends
+# with LF line breaks inside the texts.
+* -text

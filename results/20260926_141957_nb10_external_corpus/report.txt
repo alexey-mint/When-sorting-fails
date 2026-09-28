@@ -1,0 +1,47 @@
+DESCRIPTORS
+matrix  n_objects  n_pairs_expected  n_records  n_unique_keys  n_defective  tie_rate  mutual_eq_rate  direction_conflict_rate  half_eq_rate  nontransitivity  reference_levels  reference_tied_pair_rate
+  P-DD        200             19900      19900          19900            0   0.28573         0.27799                  0.00774       0.00000          0.00008               142                   0.00367
+
+ALGORITHMS
+matrix          method seed  rho_to_reference
+  P-DD   bradley_terry                  1.000
+  P-DD rank_centrality                  0.999
+  P-DD        win_rate                  0.994
+  P-DD       quicksort    0             0.879
+  P-DD       quicksort    1             0.874
+  P-DD       quicksort    2             0.923
+  P-DD           merge                  0.857
+  P-DD        heapsort                  0.781
+  P-DD       insertion                  0.457
+  P-DD          bubble                  0.457
+
+INPUT ORDER
+              algorithm  n_permutations  rho_to_input_mean  rho_to_input_sd  rho_to_reference_mean
+              quicksort             100             -0.234            0.084                  0.896
+                  merge             100              0.340            0.066                  0.831
+               heapsort             100              0.021            0.066                  0.771
+              insertion             100              0.755            0.068                  0.522
+                 bubble             100              0.755            0.068                  0.522
+file_order_vs_reference               0             -0.150            0.000                    NaN
+
+BUDGET
+ fraction_of_pairs  n_pairs  comparisons_per_object  rho_to_reference_mean  n_connected_of_3
+             0.010      199                   1.990                  0.687                 0
+             0.020      398                   3.980                  0.791                 1
+             0.030      597                   5.970                  0.830                 1
+             0.050      995                   9.950                  0.887                 3
+             0.100     1990                  19.900                  0.936                 3
+             0.200     3980                  39.800                  0.965                 3
+             0.500     9950                  99.500                  0.990                 3
+
+COMPARISON WITH HUMAN RATINGS
+     compared_with seed  rho_to_human
+copeland_reference              0.877
+     bradley_terry              0.877
+         quicksort    0         0.812
+         quicksort    1         0.802
+         quicksort    2         0.815
+             merge              0.795
+          heapsort              0.716
+         insertion              0.385
+            bubble              0.385

@@ -1,0 +1,103 @@
+grid: {'taus': (0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4), 'betas': (19.52025103523321, 12.985798294637476, 9.710377504434756, 7.738605185976269, 6.418706468796099, 4.7569002680239905, 3.7473559686211715, 3.0642186796863635, 2.5678252434840774, 2.188320539836556, 1.8868666130256728), 'tie_models': ('threshold',), 'order_kinds': ('random', 'pos', 'neg'), 'reps': 30, 'n': 400, 'order_rho': 0.5, 'alpha': 1.0, 'master_seed': 20260918}
+
+Suitability thresholds (max τ under the worst input order):
+      algorithm tie_model      beta  tau_max_rho0.95  tau_max_rho0.9  tau_max_rho0.85
+             bt threshold  1.886867             0.40            0.40             0.40
+             bt threshold  2.188321             0.40            0.40             0.40
+             bt threshold  2.567825             0.40            0.40             0.40
+             bt threshold  3.064219             0.40            0.40             0.40
+             bt threshold  3.747356             0.40            0.40             0.40
+             bt threshold  4.756900             0.40            0.40             0.40
+             bt threshold  6.418706             0.40            0.40             0.40
+             bt threshold  7.738605             0.40            0.40             0.40
+             bt threshold  9.710378             0.40            0.40             0.40
+             bt threshold 12.985798             0.40            0.40             0.40
+             bt threshold 19.520251             0.40            0.40             0.40
+         bubble threshold  1.886867            -1.00           -1.00            -1.00
+         bubble threshold  2.188321            -1.00           -1.00            -1.00
+         bubble threshold  2.567825            -1.00           -1.00            -1.00
+         bubble threshold  3.064219            -1.00           -1.00            -1.00
+         bubble threshold  3.747356            -1.00           -1.00            -1.00
+         bubble threshold  4.756900            -1.00           -1.00            -1.00
+         bubble threshold  6.418706            -1.00           -1.00            -1.00
+         bubble threshold  7.738605            -1.00           -1.00            -1.00
+         bubble threshold  9.710378            -1.00           -1.00            -1.00
+         bubble threshold 12.985798            -1.00           -1.00            -1.00
+         bubble threshold 19.520251             0.00            0.00             0.00
+       copeland threshold  1.886867             0.40            0.40             0.40
+       copeland threshold  2.188321             0.40            0.40             0.40
+       copeland threshold  2.567825             0.40            0.40             0.40
+       copeland threshold  3.064219             0.40            0.40             0.40
+       copeland threshold  3.747356             0.40            0.40             0.40
+       copeland threshold  4.756900             0.40            0.40             0.40
+       copeland threshold  6.418706             0.40            0.40             0.40
+       copeland threshold  7.738605             0.40            0.40             0.40
+       copeland threshold  9.710378             0.40            0.40             0.40
+       copeland threshold 12.985798             0.40            0.40             0.40
+       copeland threshold 19.520251             0.40            0.40             0.40
+       heapsort threshold  1.886867            -1.00           -1.00            -1.00
+       heapsort threshold  2.188321            -1.00           -1.00            -1.00
+       heapsort threshold  2.567825            -1.00           -1.00            -1.00
+       heapsort threshold  3.064219            -1.00           -1.00            -1.00
+       heapsort threshold  3.747356            -1.00           -1.00             0.05
+       heapsort threshold  4.756900            -1.00            0.05             0.10
+       heapsort threshold  6.418706             0.05            0.10             0.10
+       heapsort threshold  7.738605             0.05            0.10             0.10
+       heapsort threshold  9.710378             0.05            0.10             0.10
+       heapsort threshold 12.985798             0.05            0.10             0.15
+       heapsort threshold 19.520251             0.05            0.10             0.10
+      insertion threshold  1.886867            -1.00           -1.00            -1.00
+      insertion threshold  2.188321            -1.00           -1.00            -1.00
+      insertion threshold  2.567825            -1.00           -1.00            -1.00
+      insertion threshold  3.064219            -1.00           -1.00            -1.00
+      insertion threshold  3.747356            -1.00           -1.00            -1.00
+      insertion threshold  4.756900            -1.00           -1.00            -1.00
+      insertion threshold  6.418706            -1.00           -1.00            -1.00
+      insertion threshold  7.738605            -1.00           -1.00            -1.00
+      insertion threshold  9.710378            -1.00           -1.00            -1.00
+      insertion threshold 12.985798            -1.00           -1.00            -1.00
+      insertion threshold 19.520251             0.00            0.00             0.00
+          merge threshold  1.886867            -1.00           -1.00            -1.00
+          merge threshold  2.188321            -1.00           -1.00             0.05
+          merge threshold  2.567825            -1.00           -1.00             0.10
+          merge threshold  3.064219            -1.00            0.05             0.10
+          merge threshold  3.747356            -1.00            0.10             0.15
+          merge threshold  4.756900             0.05            0.10             0.15
+          merge threshold  6.418706             0.05            0.15             0.15
+          merge threshold  7.738605             0.10            0.15             0.15
+          merge threshold  9.710378             0.10            0.15             0.15
+          merge threshold 12.985798             0.10            0.15             0.15
+          merge threshold 19.520251             0.10            0.15             0.15
+      quicksort threshold  1.886867            -1.00           -1.00            -1.00
+      quicksort threshold  2.188321            -1.00           -1.00             0.10
+      quicksort threshold  2.567825            -1.00           -1.00             0.15
+      quicksort threshold  3.064219            -1.00            0.10             0.20
+      quicksort threshold  3.747356            -1.00            0.15             0.20
+      quicksort threshold  4.756900             0.05            0.15             0.25
+      quicksort threshold  6.418706             0.10            0.20             0.25
+      quicksort threshold  7.738605             0.10            0.20             0.25
+      quicksort threshold  9.710378             0.10            0.20             0.25
+      quicksort threshold 12.985798             0.10            0.20             0.25
+      quicksort threshold 19.520251             0.15            0.20             0.25
+rank_centrality threshold  1.886867             0.40            0.40             0.40
+rank_centrality threshold  2.188321             0.40            0.40             0.40
+rank_centrality threshold  2.567825             0.40            0.40             0.40
+rank_centrality threshold  3.064219             0.40            0.40             0.40
+rank_centrality threshold  3.747356             0.40            0.40             0.40
+rank_centrality threshold  4.756900             0.40            0.40             0.40
+rank_centrality threshold  6.418706             0.40            0.40             0.40
+rank_centrality threshold  7.738605             0.40            0.40             0.40
+rank_centrality threshold  9.710378             0.40            0.40             0.40
+rank_centrality threshold 12.985798             0.40            0.40             0.40
+rank_centrality threshold 19.520251             0.40            0.40             0.40
+        winrate threshold  1.886867             0.40            0.40             0.40
+        winrate threshold  2.188321             0.40            0.40             0.40
+        winrate threshold  2.567825             0.40            0.40             0.40
+        winrate threshold  3.064219             0.40            0.40             0.40
+        winrate threshold  3.747356             0.40            0.40             0.40
+        winrate threshold  4.756900             0.40            0.40             0.40
+        winrate threshold  6.418706             0.40            0.40             0.40
+        winrate threshold  7.738605             0.40            0.40             0.40
+        winrate threshold  9.710378             0.40            0.40             0.40
+        winrate threshold 12.985798             0.40            0.40             0.40
+        winrate threshold 19.520251             0.40            0.40             0.40
