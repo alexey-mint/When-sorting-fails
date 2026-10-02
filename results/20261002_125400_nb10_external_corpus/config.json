@@ -1,0 +1,20 @@
+{
+  "purpose": "check of the conclusions on a published external dataset",
+  "dataset": "HolisticEval / P-DD (Pang et al., 2020)",
+  "n_objects": 200,
+  "prompt": "coh_eng_v1",
+  "root_clause": false,
+  "judge": "Gemma4:26",
+  "order_mode": "bidirectional",
+  "budget_fractions": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "budget_estimator": "Bradley-Terry on the sampled pairs only (Matrix.subset + bt_ranking, as in nb04)"
+}

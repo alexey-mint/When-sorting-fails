@@ -169,7 +169,7 @@ inputs.
 | Budget scaling (Sections 3.4, 3.5, 4) | `20260926_134640_nb11_connectivity` | `connectivity.csv`, `thresholds.csv` |
 | Translated corpus (Section 4) | `20260925_214500_nb08_english_corpus` | `descriptors.csv`, `methods.csv`, `reference_agreement.csv` |
 | Repeated runs (Section 4) | `20260926_141948_nb09_repeat_runs` | `repeat_agreement.csv`, `pivot_seed_agreement.csv`, `pivot_seed_runs.csv` |
-| External set P-DD (Section 4) | `20260926_141957_nb10_external_corpus` | `descriptors.csv`, `methods.csv`, `human_agreement.csv`, `budget.csv` |
+| External set P-DD (Section 4) | `20261002_125400_nb10_external_corpus` | `descriptors.csv`, `methods.csv`, `human_agreement.csv`, `budget.csv` |
 
 Notes on the result tables:
 
